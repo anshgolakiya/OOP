@@ -7,7 +7,7 @@ public class BMIcalculator {
         System.out.println("Enter height in inches : ");
         double heightinches = sc.nextDouble();
         if(weightpounds < 0 && heightinches < 0) {
-            system.out.println("Enter valid weight and hight");
+            System.out.println("Enter valid weight and hight");
         }
         else {
             double weightkg = weightpounds * 0.45359237 ;
@@ -18,4 +18,3 @@ public class BMIcalculator {
         }
     }
 }
-
